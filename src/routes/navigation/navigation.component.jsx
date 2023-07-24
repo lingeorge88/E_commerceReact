@@ -26,6 +26,7 @@ const Navigation = () => {
           <CrwnLogo />
         </LogoContainer>
         <NavLinks>
+        
           <NavLink to='/shop' className='shop-button nes-btn is-success'>SHOP</NavLink>
 
           {currentUser ? (
