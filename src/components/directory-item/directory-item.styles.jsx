@@ -3,18 +3,20 @@ import styled from 'styled-components';
 export const BackgroundImage = styled.div`
 width: 100%;
     height: 100%;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-image: ${({imageUrl}) => `url(${imageUrl})`};
+    background-repeat: no-repeat;
 `
 export const Body = styled.div`
-height: 90px;
+    height: 90px;
     padding: 0 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 4px solid black;
+    border-width: 4px;
     background-color: white;
     opacity: 0.7;
     position: absolute;
@@ -39,9 +41,11 @@ flex: 1 1 auto;
 display: flex;
 align-items: center;
 justify-content: center;
-border: 1px solid black;
+border: 4px solid black;
 margin: 0 7.5px 15px;
 overflow: hidden;
+border-width: 4px;
+border-radius: 3px;
 
 &:hover {
   cursor: pointer;

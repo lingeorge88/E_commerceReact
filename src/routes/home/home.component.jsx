@@ -6,28 +6,28 @@ const Home = () => {
   const categories = [
     {
       id: 1,
-      title: 'hats',
-      imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+      title: 'Accessories',
+      imageUrl: 'https://i.imgur.com/6C7Eo4C.jpg',
     },
     {
       id: 2,
-      title: 'jackets',
-      imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+      title: 'Apparel',
+      imageUrl: 'https://img.freepik.com/premium-vector/t-shirt-pixel-art-isolated-white-background_744913-347.jpg',
     },
     {
       id: 3,
-      title: 'sneakers',
-      imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+      title: 'Collectibles',
+      imageUrl: 'https://assets1.ignimgs.com/2015/06/16/amiibomario30thmodern02png-0e2483.png',
     },
     {
       id: 4,
-      title: 'womens',
-      imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+      title: 'Retro Games',
+      imageUrl: 'https://i.redd.it/2spgvscgdrg51.png',
     },
     {
       id: 5,
-      title: 'mens',
-      imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+      title: 'Retro Systems',
+      imageUrl: 'https://img.freepik.com/premium-vector/pixel-art-old-video-game-console-vector-icon-8bit-game-white-background_360488-403.jpg',
     },
   ];
 
