@@ -1,6 +1,6 @@
 import { Fragment, useContext } from 'react';
 import { Outlet, Link} from 'react-router-dom';
-import {ReactComponent as CrwnLogo} from '../../assets/crown.svg';
+import {ReactComponent as CtrlLogo} from '../../assets/game-controller.svg';
 import CartIcon from '../../components/cart-icon/cart-icon.component';
 import CartDropdown from '../../components/cart-dropdown/cart-dropdown.component';
 import { UserContext } from '../../contexts/user.context';
@@ -23,7 +23,7 @@ const Navigation = () => {
       <Fragment>
       <NavigationContainer>
         <LogoContainer to='/'>
-          <CrwnLogo />
+          <CtrlLogo />
         </LogoContainer>
         <NavLinks>
         
