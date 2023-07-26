@@ -1,7 +1,7 @@
 import styled, { css }from 'styled-components';
 
 const subColor = 'grey';
-const mainColor = 'balck';
+const mainColor = 'black';
 
 
 
@@ -34,7 +34,7 @@ export const Input = styled.input`
      width: 100%;
      border: none;
      border-radius: 0;
-     border-bottom: 1px solid ${subColor};
+     border-bottom: 3px solid ${mainColor};
      margin: 25px 0;
 
      &:focus {
