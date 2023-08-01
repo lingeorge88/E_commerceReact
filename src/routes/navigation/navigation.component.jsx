@@ -30,7 +30,7 @@ const Navigation = () => {
           <NavLink to='/shop' className='shop-button nes-btn is-success'>SHOP</NavLink>
 
           {currentUser ? (
-            <NavLink as='span' onClick={signOutUser}>
+            <NavLink className='signIn-button nes-btn is-warning' onClick={signOutUser}>
               SIGN OUT
             </NavLink>
           ) : (
