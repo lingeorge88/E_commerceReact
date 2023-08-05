@@ -37,7 +37,7 @@ const CheckOut = () => {
                 <CheckOutItem key={cartItem.id} cartItem={cartItem}/>
                     );
                 })}
-                <Total>Total:<i class="nes-icon coin is-medium" style={{ marginLeft: '10px' }}></i>{cartTotal} </Total>
+                <Total>Total:<i className="nes-icon coin is-medium" style={{ marginLeft: '10px' }}></i>{cartTotal} </Total>
         </CheckoutContainer>
   )
 }

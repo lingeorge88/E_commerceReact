@@ -74,7 +74,7 @@ const SignInForm = () => {
             onClick={signInWithGoogle}
           >
             Google Sign In
-            <i class="nes-icon google is-medium" style={{marginLeft: '20px', height:'40px'}}></i>
+            <i className="nes-icon google is-medium" style={{marginLeft: '20px', height:'40px'}}></i>
           </Button>
         </div>
       </form>

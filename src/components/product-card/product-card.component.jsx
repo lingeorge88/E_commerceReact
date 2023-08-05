@@ -16,7 +16,7 @@ const ProductCard = ({ product }) => {
         <img src={imageUrl} alt={`${name}`} />
         <Footer>
           <Name>{name}</Name>
-          <Price><i class="nes-icon coin is-small" ></i>{price}</Price>
+          <Price><i className="nes-icon coin is-small" ></i>{price}</Price>
         </Footer>
         <Button buttonType={BUTTON_TYPE_CLASSES.inverted} onClick={addProductToCart}>
           Add to Cart
