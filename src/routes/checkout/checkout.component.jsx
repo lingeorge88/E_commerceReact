@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import CheckOutItem from '../../components/checkout-item/checkout-item.component';
 import { selectCartItems, selectCartTotal } from '../../store/cart/cart.selector';
 import {Total, CheckoutContainer, CheckoutHeader, HeaderBlock}from './checkout.styles.jsx';
+import { PaymentForm } from '../../components/payment-form/payment-form.component';
 
 const CheckOut = () => {
     const cartItems = useSelector(selectCartItems);
@@ -39,6 +40,8 @@ const CheckOut = () => {
                     );
                 })}
                 <Total>Total:<i className="nes-icon coin is-medium" style={{ marginLeft: '10px' }}></i>{cartTotal} </Total>
+                <PaymentForm/>
+                
         </CheckoutContainer>
   )
 }
